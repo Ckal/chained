@@ -1,0 +1,8 @@
+#openai
+gradio>=4.0.0
+langchain
+transformers>=4.35.0
+torch
+#`low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install accelerate`
+accelerate
+sentencepiece
